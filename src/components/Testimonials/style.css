@@ -1,0 +1,11 @@
+#feedback {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #9FC5CE;
+}
+
+p.feedback {
+    font-size: medium;
+    font-weight: 600;
+    font-style: italic;
+}
