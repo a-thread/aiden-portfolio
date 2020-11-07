@@ -1,23 +1,20 @@
 import * as React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import './App.css';
-import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import Bio from "./components/Bio";
 import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
+import PortContainer from "./components/PortContainer"
 
 
 function App() {
   return (
-    <Router>
-      <Navbar />
+    <>
       <Intro />
       <Bio />
+      <PortContainer />
       <Contact />
       <Testimonials />
-    </Router>
-
+    </>
   );
 }
 
