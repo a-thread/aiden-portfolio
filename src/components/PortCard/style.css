@@ -1,0 +1,28 @@
+article.portfolio-item {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+}
+
+div.text {
+    padding: 0 3rem 0 3rem;
+}
+
+div.image {
+    display: flex;
+    align-items: center;
+}
+
+img.port-img {
+    padding-right: 1rem;
+    width: 400px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+Button.site {
+    margin: 20px;
+}
