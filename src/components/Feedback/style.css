@@ -1,0 +1,14 @@
+#feedback {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5rem 0 5rem 0;
+    background-color: #9FC5CE;
+}
+
+p.feedback {
+    font-size: medium;
+    font-weight: 600;
+    font-style: italic;
+}

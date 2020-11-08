@@ -1,0 +1,98 @@
+nav[role=navigation] {
+    position: relative;
+    width: 100%;
+    font-size: 16px;
+    font-family: sans-serif;
+    z-index: 999999
+}
+
+nav[role=navigation] .toggle {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    padding: 0.5em 1em;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    z-index: 99;
+    cursor: pointer;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+nav[roll=navigation] .close-nav {
+    cursor: pointer;
+}
+
+nav[role=navigation] .toggle:hover {
+    color: rgba(255, 255, 255, 1);
+    border: 0.1em solid rgba(255, 255, 255, 1);
+}
+
+nav[role=navigation] ul {
+    display: none;
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 1em;
+    right: 1em;
+}
+
+nav[role=navigation] li {
+    float: left;
+}
+
+nav[role=navigation] li a {
+    display: block;
+    padding: 0.5em 1em;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: uppercase;
+    text-decoration: none;
+    -moz-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    transition: all ease 0.5s;
+}
+
+nav[role=navigation] li a:hover, nav[role=navigation] li .active {
+    color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 767px) {
+    nav[role=navigation] {
+        position: relative;
+        width: 100%;
+        float: left;
+    }
+    nav[role=navigation] .toggle {
+        position: relative;
+        top: 0;
+        right: 0;
+        padding: 1em;
+        border: none;
+        width: auto;
+        float: auto;
+        background: #333;
+    }
+    nav[role=navigation] .toggle:hover {
+        border: none;
+    }
+    nav[role=navigation] ul {
+        position: relative;
+        top: 0;
+        right: 0;
+        border: none;
+    }
+    nav[role=navigation] li {
+        width: 100%;
+        border-bottom: .1em solid rgba(0, 0, 0, .1);
+    }
+    nav[role=navigation] li a {
+        padding: 0.5em 1em;
+    }
+}

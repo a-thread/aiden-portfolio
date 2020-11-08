@@ -12,11 +12,11 @@ class Intro extends React.Component {
             <>
                 <Box className="intro-background">
                     <div className="container">
-                        <div className="headshot-image col-md-6 col-sm-12">
+                        <div className="headshot-image col-md-4 col-sm-12">
                             <img src={headshot} className="headshot-round img-fluid animate__animated animate__rollIn"
                                 alt="Headshot of Aiden" />
                         </div>
-                        <div className="col-md-6 col-sm-12 intro">
+                        <div className="col-md-8 col-sm-12 intro">
                             <h1 className="intro-title animate__animated animate__backInLeft">Hi, I'm <span className="green">Aiden.</span></h1>
                             <h2 className="typing">
                                 <span className="typewrite" data-period="2000"
@@ -24,13 +24,13 @@ class Intro extends React.Component {
                                     <span className="wrap"> </span>
                                 </span>
                             </h2>
-                            <a href="#portfolio">
+                            <a href="/portfolio">
                                 <Button className="projects" variant="contained">Recent Projects</Button>
                             </a>
                         </div>
                     </div>
                 </Box>
-                <div className="icon arrowContainer"><a href="#bio"><div className="arrow bounce"></div></a></div>
+                <div className="icon arrowContainer"><a href="#bio"><i className="fas fa-chevron-down fa-10x arrow bounce"></i></a></div>
             </>
         )
     }

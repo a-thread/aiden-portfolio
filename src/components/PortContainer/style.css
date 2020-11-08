@@ -1,4 +1,30 @@
+header {
+    text-align: center;
+    height: 20vh;
+    width: 100vw;
+    background-color: #3E424D;
+    display: flex;
+   justify-content: center;
+}
+
+h1.portfolio-title {
+    align-self: flex-end;
+    text-align: center;
+}
+
 article.portfolio-item:nth-of-type(odd) {
     flex-direction: row-reverse;
     text-align: right;
+}
+
+article.portfolio-item:nth-of-type(odd)>h2 {
+    text-align: right;
+}
+
+article.portfolio-item:nth-of-type(even)>div.text {
+    padding-left: 2vw;
+}
+
+article.portfolio-item:nth-of-type(odd)>div.text {
+    padding-right: 2vw;
 }

@@ -1,13 +1,12 @@
 import React, { Component } from "react";
 import Box from "@material-ui/core/Box";
-// import { Link } from "react-router-dom";
 import "./style.css";
 
 class Contact extends Component {
     render() {
         return (
             <Box id="contact">
-                <h2 className="col-md-3 contact-title">Contact</h2>
+                <h2 className="col-md-3 title">Contact</h2>
                 
                 <article className="col-md-9">
                     <div className="contact-info">
