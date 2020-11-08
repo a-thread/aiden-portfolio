@@ -7,7 +7,7 @@
     padding: 5rem 0 5rem 0;
 }
 
-p.bio-content {
+p.bio-content, div.contact-info {
     font-family: "Open Sans", sans-serif;
     max-width: 50vw;
     padding: 0 0 0 5rem;
