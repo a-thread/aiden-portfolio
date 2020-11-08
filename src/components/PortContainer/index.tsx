@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Portfolio from "../../portfolio.json";
+import Portfolio from "../../utils/portfolio.json";
 import PortCard from "../PortCard";
 import "./style.css";
 

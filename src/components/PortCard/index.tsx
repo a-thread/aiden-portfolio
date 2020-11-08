@@ -3,12 +3,12 @@ import Button from "@material-ui/core/Button";
 import Link from '@material-ui/core/Link';
 import "./style.css";
 
-function PortCard(props: { id: number; image: string; title: string; description: string; tech: string; deployed: string; github: string; }) {
+function PortCard(props: { id: number; key: number; image: string; title: string; description: string; tech: string; deployed: string; github: string; }) {
   const preventDefault = (event: { preventDefault: () => any; }) => event.preventDefault();
   return (
     <article className="portfolio-item">
       <div className="image">
-        <img className="port-img" src={require(props.image)} alt={props.title} />
+        <img className="port-img" src={`${props.image}`} alt={props.title} />
         <div className="row btnsRow">
           <Link href={props.deployed} onClick={preventDefault}>
             <Button className="btn site" variant="contained">App</Button>
