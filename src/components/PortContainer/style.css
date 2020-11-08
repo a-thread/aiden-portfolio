@@ -35,3 +35,23 @@ article.portfolio-item:nth-of-type(even)>div.text {
 article.portfolio-item:nth-of-type(odd)>div.text {
     padding-right: 2vw;
 }
+
+@media screen and (max-width: 900px) {
+    article.portfolio-item {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    article.portfolio-item:nth-of-type(even)>div.text {
+        padding-left: 0;
+    }
+    
+    article.portfolio-item:nth-of-type(odd)>div.text {
+        padding-right: 0;
+    }
+
+    article.portfolio-item:nth-of-type(odd) {
+        flex-direction: column;
+    }
+}

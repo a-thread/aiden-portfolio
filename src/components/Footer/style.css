@@ -24,3 +24,16 @@ p.footer-name {
     color: white;
     margin-top: 4vh;
 }
+
+@media screen and (max-width: 800px) {
+    div.footer{
+        height: fit-content;
+        margin: 10px;
+    }
+    span.footer-btns {
+        font-size: 25px;
+    }
+    p.footer-name {
+        margin-top: 0;
+    }
+}

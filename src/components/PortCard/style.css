@@ -1,6 +1,5 @@
 article.portfolio-item {
     display: flex;
-    flex-direction: row;
     margin: 0 10vw 0 10vw;
 }
 
@@ -11,6 +10,7 @@ h2.port-title {
 
 div.text {
     text-align: justify;
+    order: 2;
 }
 
 p.description {
@@ -27,6 +27,7 @@ div.image {
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
+    float: auto;
 }
 
 img.port-img {
@@ -49,4 +50,12 @@ a:hover {
 
 div.btnsRow {
     margin-top: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+    article.portfolio-item {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
 }

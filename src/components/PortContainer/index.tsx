@@ -20,6 +20,7 @@ class PortContainer extends Component {
                     return (
                         <PortCard
                             id={project.id}
+                            key={project.key}
                             title={project.title}
                             image={project.image}
                             description={project.description}

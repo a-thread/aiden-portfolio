@@ -133,3 +133,28 @@ span.typewrite {
         transform: translateY(-15px);
     }
 }
+
+@media screen and (max-width: 800px) {
+    div.container {
+        flex-direction: column;
+    }
+    div.intro-background, div.headshot-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    div.intro-background {
+            min-height: 75vh;
+    }
+    div.arrow-container {
+        min-height: 5vh;
+    }
+    img.headshot-round {
+        width: 50vw;
+    }
+    div.intro {
+        padding:0;
+    }
+}

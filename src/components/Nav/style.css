@@ -63,7 +63,7 @@ nav[role=navigation] li a:hover, nav[role=navigation] li .active {
     color: rgba(255, 255, 255, 1);
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     nav[role=navigation] {
         position: relative;
         width: 100%;
@@ -95,4 +95,4 @@ nav[role=navigation] li a:hover, nav[role=navigation] li .active {
     nav[role=navigation] li a {
         padding: 0.5em 1em;
     }
-}
+} */
