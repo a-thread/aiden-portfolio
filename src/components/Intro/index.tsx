@@ -25,7 +25,7 @@ class Intro extends React.Component {
                                     <span className="wrap"> </span>
                                 </span>
                             </h2>
-                            <Link to="/projects">
+                            <Link to="/portfolio">
                                 <Button className="projects" variant="contained" aria-label="projects">Recent Projects</Button>
                             </Link>
                         </div>
