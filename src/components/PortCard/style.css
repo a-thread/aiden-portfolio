@@ -1,0 +1,52 @@
+article.portfolio-item {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10vw 0 10vw;
+}
+
+h2.port-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+div.text {
+    text-align: justify;
+}
+
+p.description {
+    font-size: 18px;
+}
+
+p.tech {
+    font-size: 18px;
+}
+
+div.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+img.port-img {
+    width: 500px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+Button.site {
+    margin: 20px;
+    background-color: cadetblue;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+div.btnsRow {
+    margin-top: 1rem;
+}

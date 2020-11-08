@@ -1,0 +1,26 @@
+div.footer {
+    background-color: #3E424D;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+div.btnsRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+span.footer-btns {
+    margin: 1vw 2vw 0 2vw;
+    color: white;
+    font-size: 35px;
+}
+
+p.footer-name {
+    color: white;
+    margin-top: 4vh;
+}
