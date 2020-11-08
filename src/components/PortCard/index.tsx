@@ -8,7 +8,7 @@ function PortCard(props: { id: number; image: string; title: string; description
   return (
     <article className="portfolio-item">
       <div className="image">
-        <img className="port-img" src={props.image} alt={props.title} />
+        <img className="port-img" src={require(props.image)} alt={props.title} />
         <div className="row btnsRow">
           <Link href={props.deployed} onClick={preventDefault}>
             <Button className="btn site" variant="contained">App</Button>
