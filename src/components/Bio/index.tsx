@@ -6,9 +6,9 @@ class Bio extends Component {
     render() {
         return (
             <Box className="about-me" id="bio">
-                <h2 className="col-md-3 about-title">BIO</h2>
+                <h3 className="about-title blue">BIO</h3>
 
-                <article className="col-md-9">
+                <article>
                     <p className="bio-content">
                         Full stack web developer with graphic design background educated at University of
                         Southern Maine. Recently earned a certificate in full stack development from
