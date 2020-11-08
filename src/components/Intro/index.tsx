@@ -1,7 +1,7 @@
 import React from "react";
 import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
-import { PORTFOLIO_PATH } from "../../pathNames";
+import { Link } from "react-router-dom";
 import "./style.css";
 import headshot from "../../images/aiden.png";
 
@@ -25,9 +25,9 @@ class Intro extends React.Component {
                                     <span className="wrap"> </span>
                                 </span>
                             </h2>
-                            <a href={PORTFOLIO_PATH}>
+                            <Link to="/projects">
                                 <Button className="projects" variant="contained" aria-label="projects">Recent Projects</Button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </Box>
