@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../components/Nav";
 import Intro from "../components/Intro";
 import Bio from "../components/Bio";
-import Contact from "../components/Contact";
+import Skills from "../components/Skills";
 import Feedback from "../components/Feedback";
 import Footer from "../components/Footer";
 
@@ -12,7 +12,7 @@ function Home() {
             <Nav />
             <Intro />
             <Bio />
-            <Contact />
+            <Skills />
             <Feedback />
             <Footer />
         </>

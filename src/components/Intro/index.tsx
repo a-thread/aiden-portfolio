@@ -25,12 +25,12 @@ class Intro extends React.Component {
                                 </span>
                             </h2>
                             <a href="/portfolio">
-                                <Button className="projects" variant="contained">Recent Projects</Button>
+                                <Button className="projects" variant="contained" aria-label="projects">Recent Projects</Button>
                             </a>
                         </div>
                     </div>
                 </Box>
-                <div className="icon arrowContainer"><a href="#bio"><i className="fas fa-chevron-down fa-10x arrow bounce"></i></a></div>
+                <div className="icon arrowContainer"><a href="#bio" aria-label="bio"><i className="fas fa-chevron-down arrow bounce"></i></a></div>
             </>
         )
     }

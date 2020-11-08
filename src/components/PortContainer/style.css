@@ -7,11 +7,18 @@ header {
    justify-content: center;
 }
 
+div.portfolio {
+    margin-top: 2rem;
+}
+
 h1.portfolio-title {
     align-self: flex-end;
     text-align: center;
 }
 
+article.portfolio-item {
+    padding: 2rem;
+}
 article.portfolio-item:nth-of-type(odd) {
     flex-direction: row-reverse;
     text-align: right;

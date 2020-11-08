@@ -6,32 +6,25 @@ class Feedback extends Component {
     render() {
         return (
             <Box id="feedback">
-                <h2 className="col-md-3 title">FEEDBACK</h2>
-
-                <article className="col-md-9">
-                    <div className="contact-info">
-                        <p className="feedback">
-                            "Aiden is always in a good mood making him a pleasure to work with. Would gladly work with
-                            him again."
+                <h3 className="feedbackTitle">Testimonials</h3>
+                <div className="feedback">
+                    <p className="feedback">
+                        "Aiden is always in a good mood making him a pleasure to work with. Would gladly work with
+                        him again."
                         <br />
-                            <br />
-                    "Always cheerful, asks questions, never seems to give up. Great to have in groups for class
-                    activities!"
                         <br />
-                            <br />
                     "Aiden is an activist and a very compassionate individual."
                         <br />
-                            <br />
+                        <br />
                     "He is always on the lookout for someone not feeling good about themselves and not letting
                     them put themselves down - looking out for the diginity of each human being, for sure."
                         <br />
-                            <br />
+                        <br />
                     "Aiden is just incredibly kind and patient with everything toward everyone."
                         <br />
-                            <br />
+                        <br />
                     "Aiden is always friendly, warm and welcoming."</p>
-                    </div>
-                </article>
+                </div>
             </Box >
         )
     }

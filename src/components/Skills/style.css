@@ -1,0 +1,51 @@
+div.skillsContainer {
+    padding: 0 0 4rem 0;
+}
+
+h3.skillsTitle {
+    text-align: center;
+    margin: 20px 0 50px 0;
+}
+
+.blue {
+    color: #457b9d;
+}
+
+.skillsSection {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 5rem 0;
+    justify-content: center;
+}
+
+div.skillsSection:first-of-type {
+    padding: 0;
+}
+
+div.border {
+    border-bottom: solid 5px #BBCB9F;
+}
+
+div.skillsList {
+    width: 25rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+span.blue {
+    font-size: 50px;
+    padding: 10px;
+    color: #9FC5CE;
+}
+
+div.skillsList:first-of-type {
+    border-right: solid 5px #BBCB9F;
+}
+
+div.skillsList p {
+    font-size: 20px;
+}
+
+div.skillsList h3 {
+    margin-bottom: 0;
+}

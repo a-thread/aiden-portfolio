@@ -1,11 +1,12 @@
 article.portfolio-item {
     display: flex;
     flex-direction: row;
-    margin: 5rem;
+    margin: 0 10vw 0 10vw;
 }
 
 h2.port-title {
     font-size: 30px;
+    text-align: center;
 }
 
 div.text {
@@ -13,7 +14,7 @@ div.text {
 }
 
 p.description {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 p.tech {
@@ -22,12 +23,14 @@ p.tech {
 
 div.image {
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
 }
 
 img.port-img {
-    padding-right: 1rem;
-    width: 400px;
+    width: 500px;
 }
 
 h2 {
@@ -37,4 +40,13 @@ h2 {
 
 Button.site {
     margin: 20px;
+    background-color: cadetblue;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+div.btnsRow {
+    margin-top: 1rem;
 }

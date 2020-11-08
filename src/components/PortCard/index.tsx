@@ -9,20 +9,20 @@ function PortCard(props: { id: number; image: string; title: string; description
     <article className="portfolio-item">
       <div className="image">
         <img className="port-img" src={props.image} alt={props.title} />
+        <div className="row btnsRow">
+          <Link href={props.deployed} onClick={preventDefault}>
+            <Button className="btn site" variant="contained">App</Button>
+          </Link>
+          <Link href={props.github} onClick={preventDefault}>
+            <Button className="btn site" variant="contained">Repo</Button>
+          </Link>
+        </div>
       </div>
       <div className="text">
         <h2 className="port-title">{props.title}</h2>
         <div className="description">
           <p className="description">{props.description}</p>
           <p className="tech"><strong>Tech Used:</strong> {props.tech}</p>
-          <div className="row btnsRow">
-            <Link href={props.deployed} onClick={preventDefault}>
-              <Button className="btn site" variant="contained">App</Button>
-            </Link>
-            <Link href={props.github} onClick={preventDefault}>
-              <Button className="btn site" variant="contained">Repo</Button>
-            </Link>
-          </div>
         </div>
       </div>
     </article >

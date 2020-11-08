@@ -1,14 +1,18 @@
 #feedback {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 5rem 0 5rem 0;
+    padding: 4rem 0 4rem 0;
     background-color: #9FC5CE;
+}
+
+h3.feedbackTitle {
+    color: #3E424D;
+    text-align: center;
+    margin-top: 0;
 }
 
 p.feedback {
     font-size: medium;
     font-weight: 600;
     font-style: italic;
+    text-align: center;
+    margin: 0 20vw 0 20vw;
 }

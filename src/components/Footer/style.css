@@ -14,12 +14,13 @@ div.btnsRow {
     align-items: center;
 }
 
-h2.footer-btns {
+span.footer-btns {
     margin: 1vw 2vw 0 2vw;
     color: white;
+    font-size: 35px;
 }
 
 p.footer-name {
     color: white;
-
+    margin-top: 4vh;
 }

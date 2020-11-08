@@ -7,6 +7,10 @@
     padding: 5rem 0 5rem 0;
 }
 
+h3.about-title {
+   margin-top: 0;
+}
+
 p.bio-content, div.contact-info {
     font-family: "Open Sans", sans-serif;
     max-width: 50vw;

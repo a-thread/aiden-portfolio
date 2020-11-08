@@ -62,7 +62,7 @@ img.headshot-round {
     border: 5px solid #BBCB9F;
 }
 
-h1, h3, span.typewrite {
+h1, h3, span.typewrite .greenLarge{
     color: #9FC5CE;
     font-weight: 600;
     font-size: 6vh;
@@ -73,7 +73,7 @@ h3 {
     font-size: 38px;
 }
 
-span.green {
+.green {
     color: #BBCB9F;
 }
 

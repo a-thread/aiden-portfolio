@@ -6,9 +6,9 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <div className="btnsRow">
-                    <a href="https://github.com/a-thread" rel="noreferrer" target="_blank"><h2 className="footer-btns"><i className="fab fa-github"></i></h2></a>
-                    <a href="https://www.linkedin.com/in/a-thread" rel="noreferrer" target="_blank"><h2 className="footer-btns"><i className="fab fa-linkedin-in"></i></h2></a>
-                    <a href="mailto:aiden.threadgoode@gmail.com"><h2 className="footer-btns"><i className="far fa-paper-plane"></i></h2></a>
+                    <a href="https://github.com/a-thread" aria-label="github" rel="noreferrer" target="_blank"><span className="footer-btns"><i className="fab fa-github"></i></span></a>
+                    <a href="https://www.linkedin.com/in/a-thread" aria-label="linkedin" rel="noreferrer" target="_blank"><span className="footer-btns"><i className="fab fa-linkedin-in"></i></span></a>
+                    <a href="mailto:aiden.threadgoode@gmail.com" aria-label="email"><span className="footer-btns"><i className="far fa-paper-plane"></i></span></a>
                 </div>
                 <p className="footer-name">© Aiden Threadgoode</p>
             </div>
