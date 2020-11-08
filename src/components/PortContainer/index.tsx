@@ -11,20 +11,23 @@ class PortContainer extends Component {
 
     render() {
         return (
-            <div>
-            {this.state.Portfolio.map(project => {
-                return (
-                <PortCard 
-                id={project.id}
-                title={project.title}
-                image={project.image}
-                description={project.description}
-                tech={project.tech}
-                github={project.github}
-                deployed={project.deployed}
-                />
-                )
-            })}
+            <div className="body">
+                <header>
+                    <h1 className="portfolio-title">Recent Projects</h1>
+                </header>
+                {this.state.Portfolio.reverse().map(project => {
+                    return (
+                        <PortCard
+                            id={project.id}
+                            title={project.title}
+                            image={project.image}
+                            description={project.description}
+                            tech={project.tech}
+                            github={project.github}
+                            deployed={project.deployed}
+                        />
+                    )
+                })}
             </div>
         )
     }
