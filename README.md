@@ -4,9 +4,7 @@
 
 ![Image of Start Screen](./public/images/demo.png)
 
-### [My React Portfolio](https://a-thread.github.io/aiden-portfolio/)
-
-    
+### Deployed Link: [My React Portfolio](https://a-thread.github.io/aiden-portfolio/)
 
 ## Description
 
