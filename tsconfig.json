@@ -21,6 +21,6 @@
     "jsx": "react"
   },
   "include": [
-    "src", "src/.d.ts", "./public/script.js"
+    "src", "src/.d.ts"
   ]
 }
