@@ -8,7 +8,7 @@
 
 ## Description
 
-This is a simple and fun portfolio built with TypeScript and React. It contains a short bio, an abreviated list of skills as well information on recent projects. A resume has also been included for the viewer's convenience!
+This is a simple and fun portfolio built with TypeScript and React. It contains a short bio, an abreviated list of skills as well as information on recent projects. A resume has also been included for the viewer's convenience!
 
 ### Tools/Technologies Used
 
