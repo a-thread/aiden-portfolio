@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aiden-portfolio/static/css/main.12977616.chunk.css",
+    "main.css": "/aiden-portfolio/static/css/main.0dbceacd.chunk.css",
     "main.js": "/aiden-portfolio/static/js/main.bc64cd0a.chunk.js",
     "main.js.map": "/aiden-portfolio/static/js/main.bc64cd0a.chunk.js.map",
     "runtime-main.js": "/aiden-portfolio/static/js/runtime-main.4adda1e2.js",
@@ -10,7 +10,7 @@
     "static/js/3.0277bc46.chunk.js": "/aiden-portfolio/static/js/3.0277bc46.chunk.js",
     "static/js/3.0277bc46.chunk.js.map": "/aiden-portfolio/static/js/3.0277bc46.chunk.js.map",
     "index.html": "/aiden-portfolio/index.html",
-    "static/css/main.12977616.chunk.css.map": "/aiden-portfolio/static/css/main.12977616.chunk.css.map",
+    "static/css/main.0dbceacd.chunk.css.map": "/aiden-portfolio/static/css/main.0dbceacd.chunk.css.map",
     "static/js/2.4721a217.chunk.js.LICENSE.txt": "/aiden-portfolio/static/js/2.4721a217.chunk.js.LICENSE.txt",
     "static/media/Aiden_Threadgoode_Resume.8d66ad6e.pdf": "/aiden-portfolio/static/media/Aiden_Threadgoode_Resume.8d66ad6e.pdf",
     "static/media/aiden.490b5966.png": "/aiden-portfolio/static/media/aiden.490b5966.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.4adda1e2.js",
     "static/js/2.4721a217.chunk.js",
-    "static/css/main.12977616.chunk.css",
+    "static/css/main.0dbceacd.chunk.css",
     "static/js/main.bc64cd0a.chunk.js"
   ]
 }
