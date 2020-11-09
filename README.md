@@ -20,6 +20,7 @@ This is a simple and fun portfolio built with TypeScript and React. It contains 
 * Dotenv
 * Github Pages
 * [react-typical](https://www.producthunt.com/posts/react-typical)
+* [imgbb](https://imgbb.com/)
 
 ### Demo 
 
