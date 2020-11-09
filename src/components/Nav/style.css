@@ -6,7 +6,7 @@ nav[role=navigation] {
     z-index: 999999
 }
 
-nav[role=navigation] .toggle {
+/* nav[role=navigation] .toggle {
     position: absolute;
     top: 1em;
     right: 1em;
@@ -21,11 +21,11 @@ nav[role=navigation] .toggle {
     -o-transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
     transition: all ease 0.5s;
-}
+} */
 
-nav[roll=navigation] .close-nav {
+/* nav[roll=navigation] .close-nav {
     cursor: pointer;
-}
+} */
 
 nav[role=navigation] .toggle:hover {
     color: rgba(255, 255, 255, 1);
@@ -33,7 +33,7 @@ nav[role=navigation] .toggle:hover {
 }
 
 nav[role=navigation] ul {
-    display: none;
+    /* display: none; */
     position: absolute;
     list-style: none;
     padding: 0;
@@ -48,16 +48,17 @@ nav[role=navigation] li {
 
 nav[role=navigation] li a {
     display: block;
+    color: rgba(255, 255, 255, 1);
     padding: 0.5em 1em;
     letter-spacing: 0.1em;
-    color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
     text-decoration: none;
-    -moz-transition: all ease 0.5s;
+    /* -moz-transition: all ease 0.5s;
     -o-transition: all ease 0.5s;
     -webkit-transition: all ease 0.5s;
-    transition: all ease 0.5s;
+    transition: all ease 0.5s;  */
 }
+
 
 nav[role=navigation] li a:hover, nav[role=navigation] li .active {
     color: rgba(255, 255, 255, 1);
