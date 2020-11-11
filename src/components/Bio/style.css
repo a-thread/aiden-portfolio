@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-#bio {
+#bio, #contact, #feedback {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -7,18 +7,27 @@
     padding: 5rem 0 5rem 0;
 }
 
-h3.about-title {
+h3.about-title,
+#feedback > h3 {
    margin-top: 0;
 }
 
-p.bio-content, div.contact-info {
+p.bio-content, div.contact-info, article.feedback {
     font-family: "Open Sans", sans-serif;
     max-width: 50vw;
     padding: 0 0 0 5rem;
 }
 
 @media screen and (max-width: 800px) {
-    #bio {
+    #bio, #feedback, #contact {
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    h3.about-title {
+        text-align: center;
+    }
+    p.bio-content, p.feedback, div.contact-info {
+        padding: 0;
     }
 }
