@@ -6,8 +6,8 @@ class Feedback extends Component {
     render() {
         return (
             <Box id="feedback">
-                <h3 className="feedbackTitle">Testimonials</h3>
-                <div className="feedback">
+                <h3 className="blue">Feedback</h3>
+                <article className="feedback">
                     <p className="feedback">
                         "Aiden is always in a good mood making him a pleasure to work with. Would gladly work with
                         him again."
@@ -24,7 +24,7 @@ class Feedback extends Component {
                         <br />
                         <br />
                     "Aiden is always friendly, warm and welcoming."</p>
-                </div>
+                </article>
             </Box >
         )
     }
