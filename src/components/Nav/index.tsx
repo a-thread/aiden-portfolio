@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { HOME_PATH, RESUME_PATH, PORTFOLIO_PATH, CONTACT_PATH } from "../../utils/pathNames";
+import { HOME_PATH, RESUME_PATH, PORTFOLIO_PATH } from "../../utils/pathNames";
 
 import "./style.css";
 
