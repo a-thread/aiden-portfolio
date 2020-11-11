@@ -3,6 +3,7 @@ import Nav from "../components/Nav";
 import Intro from "../components/Intro";
 import Bio from "../components/Bio";
 import Skills from "../components/Skills";
+import Contact from "../components/Contact";
 import Feedback from "../components/Feedback";
 import Footer from "../components/Footer";
 
@@ -14,6 +15,7 @@ function Home() {
             <Bio />
             <Skills />
             <Feedback />
+            <Contact />
             <Footer />
         </>
     )
