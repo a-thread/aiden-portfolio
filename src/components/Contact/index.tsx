@@ -6,9 +6,9 @@ class Contact extends Component {
     render() {
         return (
             <Box id="contact">
-                <h2 className="col-md-3 title">Contact</h2>
-                
-                <article className="col-md-9">
+                <h3 className="title">Contact</h3>
+
+                <article>
                     <div className="contact-info">
                         <a className="contact-item" href="https://github.com/a-thread" rel="noreferrer" target="_blank"><strong><i
                             className="fab fa-github"></i>
