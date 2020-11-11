@@ -1,6 +1,6 @@
 div.intro-background {
     background-color: #3E424D;
-    min-height: 85vh;
+    min-height: 80vh;
     width: 100%;
     margin: 0;
     display: flex;
@@ -51,7 +51,6 @@ h2.typing {
 div.headshot-image {
     order: 1;
     max-width: 30rem;
-    text-align: right;
 }
 
 img.headshot-round {
@@ -81,54 +80,13 @@ Button.projects {
     margin-top: 1rem;
     font-family: "Ubuntu", sans-serif;
     background-color: #9FC5CE;
-    text-decoration: none;
 }
-
-/* typwriter Descriptor */
 
 .typewrite {
     color: #BBCB9F;
-    text-decoration-color: #9FC5CE;
     font-size: 3vh;
-    overflow: hidden;
-    white-space: nowrap;
     margin: 0 auto;
-    text-decoration-color: #BBCB9F;
     font-size: 3vh;
-}
-
-/* The typing effect */
-
-@keyframes typing {
-    from {
-        width: 0
-    }
-    to {
-        width: 100%
-    }
-}
-
-/* The typewriter cursor effect */
-
-@keyframes blink-caret {
-    from, to {
-        border-color: transparent
-    }
-    50% {
-        border-color: #faf9f9;
-    }
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-30px);
-    }
-    60% {
-        transform: translateY(-15px);
-    }
 }
 
 @media screen and (max-width: 800px) {
@@ -143,7 +101,7 @@ Button.projects {
         text-align: center;
     }
     div.intro-background {
-            min-height: 75vh;
+        height: 50vh;
     }
     div.arrow-container {
         min-height: 5vh;

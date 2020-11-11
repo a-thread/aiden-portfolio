@@ -28,7 +28,6 @@ p.footer-name {
 @media screen and (max-width: 800px) {
     div.footer{
         height: fit-content;
-        margin: 10px;
     }
     span.footer-btns {
         font-size: 25px;

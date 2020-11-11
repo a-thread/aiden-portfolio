@@ -16,11 +16,11 @@ class Intro extends React.Component {
             <>
                 <Box className="intro-background">
                     <div className="container">
-                        <div className="headshot-image col-md-4 col-sm-12">
+                        <div className="headshot-image">
                             <img src={headshot} className="headshot-round img-fluid animate__animated animate__rollIn"
                                 alt="Headshot of Aiden" />
                         </div>
-                        <div className="col-md-8 col-sm-12 intro">
+                        <div className="intro">
                             <h1 className="intro-title animate__animated animate__backInLeft">Hi, I'm <span className="green">Aiden.</span></h1>
                             <Typical
                                 steps={[ 1000, 'Full Stack Developer', 2000, 'Graphic Designer', 1000, 'Dog Dad', 1000, 'Trans Rights Activist']}
@@ -29,7 +29,7 @@ class Intro extends React.Component {
                                 className="typewrite"
                             />
                             <Link to={PORTFOLIO_PATH}>
-                                <Button className="projects" variant="contained" aria-label="projects">Recent Projects</Button>
+                                <Button className="projects animate_animated animate__fadeIn" variant="contained" aria-label="projects">Recent Projects</Button>
                             </Link>
                         </div>
                     </div>
