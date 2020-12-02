@@ -42,16 +42,6 @@
     {
         "id": 5,
         "key": 5,
-        "title": "Ascent: Sobriety App",
-        "image": "https://i.ibb.co/17mXtQg/ascent.png",
-        "description": "Ascent is a sobriety tool that helps members track their daily mood & thoughts as well as various lengths of sobriety. In a time where more and more people are living sober lifestyles, this app caters to those who are seeking to track continuous time as well as discontinuous time. If you'd like to check it out yourself, click the app button below and login using the Guest email and password provided below. <br/> <br/> Email: email@address.com <br /> Password: password",
-        "tech": "Express, Sequelize, MySQL, CORS, Nodemailer, Passport, Express-Handlebars, Moment, ApexCharts, Bootstrap, Canva, and Frontify.",
-        "github": "https://github.com/a-thread/ascent-sobriety/",
-        "deployed": "https://ascent-sobriety.herokuapp.com/"
-    },
-    {
-        "id": 6,
-        "key": 6,
         "title": "Personal Trainer App",
         "image": "https://i.ibb.co/5YmRpYL/personal-trainer.png",
         "description": "Personal Trainer is a web application that that helps consumers reach their fitness goals by tracking their workout progress. Exercises are shown in two line graphs and two pie charts with each exercise shown below, all divided into two categories All Exercises and Pounds Lifted.",
@@ -60,13 +50,33 @@
         "deployed": "https://lets-workout.herokuapp.com/"
     },
     {
-        "id": 7,
-        "key": 7,
+        "id": 6,
+        "key": 6,
         "title": "React Team Directory",
         "image": "https://i.ibb.co/qNtvq51/directory.png",
         "description": "Team Directory is an application built in Typescript and powered by React that enables the user to view, search and sort their employees by id, first name, last name, cell number and email. The directory also shows a photo of each employee so that employees can familiarize themselves with the team.",
         "tech": "React, Typescript, Material-UI, Express, Axios, WebPack, Google Fonts, Font Awesome, PostMan",
         "github": "https://github.com/a-thread/react-team-directory",
         "deployed": "https://a-thread.github.io/react-team-directory/"
+    },
+    {
+        "id": 7,
+        "key": 7,
+        "title": "Ascent: Sobriety App",
+        "image": "https://i.ibb.co/17mXtQg/ascent.png",
+        "description": "Ascent is a sobriety tool that helps members track their daily mood & thoughts as well as various lengths of sobriety. In a time where more and more people are living sober lifestyles, this app caters to those who are seeking to track continuous time as well as discontinuous time. If you'd like to check it out yourself, click the app button below and login using the Guest email and password provided below. <br/> <br/> Email: email@address.com <br /> Password: password",
+        "tech": "Express, Sequelize, MySQL, CORS, Nodemailer, Passport, Express-Handlebars, Moment, ApexCharts, Bootstrap, Canva, and Frontify.",
+        "github": "https://github.com/a-thread/ascent-sobriety/",
+        "deployed": "https://ascent-sobriety.herokuapp.com/"
+    },
+    {
+        "id": 8,
+        "key": 8,
+        "title": "Safe Space",
+        "image": "https://i.ibb.co/CwgXLrP/safe-space.png",
+        "description": "Safe Space offers a unique platform that helps the LGBTQ community safely expand their orbit by connecting members with resources, businesses and community. With Safe Space, members are able to securely and swiftly login with a social media account or email and password to access a database of trusted businesses and community organizations",
+        "tech": "Angular, NestJS, Heroku, Auth0, Balsamiq, Material, Axios, dotenv, TSLint, SCSS, Google G Suite, Canva, TypeORM, nodemon, MongoDB, Postman, Trello ",
+        "github": "https://github.com/a-thread/safe-space/",
+        "deployed": "https://safe-space-ne.herokuapp.com/"
     }
 ]
