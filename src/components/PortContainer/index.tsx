@@ -16,7 +16,7 @@ class PortContainer extends Component {
                     <h1>Recent Projects</h1>
                 </header>
                 <div className="portfolio">
-                {this.state.Portfolio.reverse().map(project => {
+                {this.state.Portfolio.map(project => {
                     return (
                         <PortCard
                             id={project.id}

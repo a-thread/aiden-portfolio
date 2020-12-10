@@ -12,9 +12,9 @@ class Nav extends Component {
                     <h1><span className="green">Aiden</span> Threadgoode</h1>
                 </div>
                 <div>
-                    <Button className="navItem"><Link className="link" to={HOME_PATH}>home</Link></Button>
-                    <Button className="navItem"><Link className="link" to={PORTFOLIO_PATH}>projects</Link></Button>
-                    <Button className="navItem"><Link className="link" to={RESUME_PATH}>resume</Link></Button>
+                    <Button className="navItem"><Link className="link" to="/">home</Link></Button>
+                    <Button className="navItem"><Link className="link" to="/recent">projects</Link></Button>
+                    <Button className="navItem"><Link className="link" to="/resume">resume</Link></Button>
                 </div>
             </nav>
         )
