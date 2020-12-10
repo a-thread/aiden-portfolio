@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./style.css";
+import "./style.scss";
 
 class Footer extends Component {
     render() {
@@ -10,7 +10,6 @@ class Footer extends Component {
                     <a href="https://www.linkedin.com/in/a-thread" aria-label="linkedin" rel="noreferrer" target="_blank"><span className="footer-btns"><i className="fab fa-linkedin-in"></i></span></a>
                     <a href="mailto:aiden.threadgoode@gmail.com" aria-label="email"><span className="footer-btns"><i className="far fa-paper-plane"></i></span></a>
                 </div>
-                <p className="footer-name">© Aiden Threadgoode</p>
             </div>
         )
     }

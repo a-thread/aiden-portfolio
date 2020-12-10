@@ -1,0 +1,36 @@
+#contact {
+    background-color: #3E424D;
+
+    h3 {
+        text-align: right;
+        margin-top: 0;
+    }
+
+    div.contact-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        font-family: "Open Sans", sans-serif;
+        max-width: 50vw;
+
+        @media screen and (max-width: 900px) {
+            max-width: 80vw;
+        }
+
+        a.contact-item {
+            align-items: flex-start;
+            list-style-type: none;
+            color: #9FC5CE;
+            font-size: large;
+            padding: .5rem;
+            text-decoration: none;
+
+            i.fas,
+            i.fab {
+                margin: 5px;
+                font-size: larger;
+            }
+        }
+    }
+}

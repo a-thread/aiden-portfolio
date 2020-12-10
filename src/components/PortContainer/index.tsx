@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Portfolio from "../../utils/portfolio.json";
 import PortCard from "../PortCard";
-import "./style.css";
+import "./style.scss";
 
 class PortContainer extends Component {
 
@@ -13,7 +13,7 @@ class PortContainer extends Component {
         return (
             <div className="body">
                 <header>
-                    <h1 className="portfolio-title">Recent Projects</h1>
+                    <h1>Recent Projects</h1>
                 </header>
                 <div className="portfolio">
                 {this.state.Portfolio.reverse().map(project => {

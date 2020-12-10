@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Box from "@material-ui/core/Box";
-import "./style.css";
+import "./style.scss";
 
 class Feedback extends Component {
     render() {
@@ -8,7 +8,7 @@ class Feedback extends Component {
             <Box id="feedback">
                 <h3 className="blue">Feedback</h3>
                 <article className="feedback">
-                    <p className="feedback">
+                    <p>
                         "Aiden is always in a good mood making him a pleasure to work with. Would gladly work with
                         him again."
                         <br />
