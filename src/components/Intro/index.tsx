@@ -3,7 +3,6 @@ import Typical from 'react-typical';
 import { Link } from "react-router-dom";
 import Box from "@material-ui/core/Box";
 import Button from "@material-ui/core/Button";
-import { PORTFOLIO_PATH } from "../../utils/pathNames";
 import headshot from "./aiden.png";
 import "./style.scss";
 
@@ -28,7 +27,7 @@ class Intro extends React.Component {
                                 wrapper="h2"
                                 className="typewrite"
                             />
-                            <Link to={PORTFOLIO_PATH}>
+                            <Link to="/recent">
                                 <Button className="projects animate_animated animate__fadeIn" variant="contained" aria-label="projects">Recent Projects</Button>
                             </Link>
                         </div>

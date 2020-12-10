@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import Button from "@material-ui/core/Button";
-import { HOME_PATH, RESUME_PATH, PORTFOLIO_PATH } from "../../utils/pathNames";
 import "./style.scss";
 
 class Nav extends Component {
