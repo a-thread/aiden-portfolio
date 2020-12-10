@@ -46,7 +46,7 @@
         div.intro {
             order: 2;
             padding: 2rem 0 5rem 2rem;
-            min-width: 340px;
+            // min-width: 340px;
 
             @media screen and (max-width: 1000px) {
                 padding: 0;
@@ -66,15 +66,15 @@
 
             i {
                 position: relative;
-                bottom: -15vh;
+                bottom: -12vh;
                 left: 50%;
                 margin-left: -20px;
                 color: white;
                 animation: bounce 2s infinite;
 
-                @media screen and (max-width: 600px) {
+                @media screen and (max-width: 1000px) {
                     left: 2.5%;
-                    bottom: -5vh;
+                    bottom: -7vh;
                 }
             }
         }

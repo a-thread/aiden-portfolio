@@ -12,18 +12,16 @@ class Bio extends Component {
                     <p className="bio-content">
                         Full stack web developer with graphic design background educated at University of
                         Southern Maine. Recently earned a certificate in full stack development from
-                        University
-                        of New Hampshire in JavaScript, Jquery, CSS, and responsive web design.
+                        University of New Hampshire.
                         <br />
                         <br />
                         Coming from the nonprofit sector with a focus upon peer support and social justice, I am
-                        passionate about
-                        accessibility and approach programming challenges from fresh perspectives to create
-                        collaborative and meaningful web applications.
+                        passionate about accessibility and approach programming challenges from fresh perspectives 
+                        to create collaborative and meaningful web applications.
                         <br />
                         <br />
-                        When I am not at work or volunteering, you will find me at home or in the woods with my great
-                        dane, Bonito, and my incredible partner, CJ.
+                        When I'm not hard at work, you will find me volunteering with MaineTransNet or out exploring with
+                        with my spouse, CJ, and great dane, Bonito.
                         </p>
                 </article>
             </Box>

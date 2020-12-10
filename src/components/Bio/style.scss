@@ -7,13 +7,14 @@
     padding: 5rem 0;
 
     @media screen and (max-width: 600px) {
-        padding: 1rem 0;
+        padding: 3rem 0;
     }
 }
 
 h3.about-title,
 #feedback > h3 {
    margin-top: 0;
+   color: #457b9d;
 }
 
 p.bio-content, div.contact-info, article.feedback {

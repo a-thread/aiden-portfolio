@@ -6,30 +6,30 @@ class Skills extends Component {
     render() {
         return (
             <Box className="skillsContainer">
-                <h3 className="skillsTitle blue">Tools, Technologies, and Skills</h3>
+                <h3>Tools, Technologies<br /> & Skills</h3>
 
                 <div className="skillsSection">
-                    <div className="skillsList border">
-                        <span className="blue"><i className="fas fa-laptop-code"></i></span>
+                    <div>
+                        <span><i className="fas fa-laptop-code"></i></span>
                         <h2>Front End</h2>
-                        <p>HTML5, CSS, Javascript, jQuery TypeScript, Bootstrap, Material, React</p>
+                        <p>Angular, React, HTML5, CSS, jQuery, Bootstrap, Material</p>
                     </div>
-                    <div className="skillsList border">
-                        <span className="blue"><i className="fas fa-terminal"></i></span>
+                    <div>
+                        <span><i className="fas fa-terminal"></i></span>
                         <h2>Back End</h2>
-                        <p>Mongoose, Express, Node, MySQL, NoSQL, MongoDB</p>
+                        <p>Typescript, Javascript, NestJs, Mongoose, Express, NodeJs, SQL, NoSQL, MongoDB</p>
                     </div>
                 </div>
                 <div className="skillsSection">
-                    <div className="skillsList">
+                    <div>
                         <span className="blue"><i className="fas fa-code-branch"></i></span>
                         <h2>Tools</h2>
                         <p>Github, VSCode, Git, Jira, Hubspot, Slack</p>
                     </div>
-                    <div className="skillsList">
+                    <div>
                         <span className="blue"><i className="fas fa-users-cog"></i></span>
                         <h2>Soft Skills</h2>
-                        <p>Critical Thinking, Communication, Resourcefulness, Organization, Flexibility </p>
+                        <p>Critical Thinking, Communication, Resourcefulness, Organization, Flexibility</p>
                     </div>
                 </div>
             </Box>

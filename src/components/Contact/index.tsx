@@ -15,7 +15,7 @@ class Contact extends Component {
                             Github:</strong> github.com/a-thread</a>
                         <a className="contact-item" href="https://www.linkedin.com/in/a-thread" rel="noreferrer" target="_blank"><strong><i
                             className="fab fa-linkedin"></i> LinkedIn: </strong>
-                            linkedin.com/in/aiden-threadgoode/</a>
+                            linkedin.com/in/a-thread/</a>
                         <a className="contact-item" href="mailto:aiden.threadgoode@gmail.com"><strong><i
                             className="fas fa-paper-plane"></i>
                             Email: </strong>

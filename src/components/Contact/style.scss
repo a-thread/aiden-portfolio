@@ -1,9 +1,10 @@
 #contact {
     background-color: #3E424D;
-
+    
     h3 {
         text-align: right;
         margin-top: 0;
+        color: white;
     }
 
     div.contact-info {
@@ -21,10 +22,20 @@
         a.contact-item {
             align-items: flex-start;
             list-style-type: none;
-            color: #9FC5CE;
+            color: white;
             font-size: large;
             padding: .5rem;
             text-decoration: none;
+            
+            @media screen and (max-width: 300px) {
+                font-size: 6vw;
+                overflow-wrap: break-word;
+                padding: 0;
+            }
+
+            &:hover {
+                color: #BBCB9F;
+            }
 
             i.fas,
             i.fab {
