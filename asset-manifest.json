@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.84b04783.chunk.css",
-    "main.js": "/portfolio/static/js/main.1f90e8dc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.1f90e8dc.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.4553cc81.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4553cc81.js.map",
-    "static/js/2.261d8347.chunk.js": "/portfolio/static/js/2.261d8347.chunk.js",
-    "static/js/2.261d8347.chunk.js.map": "/portfolio/static/js/2.261d8347.chunk.js.map",
-    "static/js/3.7e0d4c4a.chunk.js": "/portfolio/static/js/3.7e0d4c4a.chunk.js",
-    "static/js/3.7e0d4c4a.chunk.js.map": "/portfolio/static/js/3.7e0d4c4a.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.84b04783.chunk.css.map": "/portfolio/static/css/main.84b04783.chunk.css.map",
-    "static/js/2.261d8347.chunk.js.LICENSE.txt": "/portfolio/static/js/2.261d8347.chunk.js.LICENSE.txt",
-    "static/media/Aiden_Threadgoode_Resume.8d66ad6e.pdf": "/portfolio/static/media/Aiden_Threadgoode_Resume.8d66ad6e.pdf",
-    "static/media/aiden.490b5966.png": "/portfolio/static/media/aiden.490b5966.png"
+    "main.css": "/static/css/main.84b04783.chunk.css",
+    "main.js": "/static/js/main.1f90e8dc.chunk.js",
+    "main.js.map": "/static/js/main.1f90e8dc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.35de4f89.js",
+    "runtime-main.js.map": "/static/js/runtime-main.35de4f89.js.map",
+    "static/js/2.261d8347.chunk.js": "/static/js/2.261d8347.chunk.js",
+    "static/js/2.261d8347.chunk.js.map": "/static/js/2.261d8347.chunk.js.map",
+    "static/js/3.7e0d4c4a.chunk.js": "/static/js/3.7e0d4c4a.chunk.js",
+    "static/js/3.7e0d4c4a.chunk.js.map": "/static/js/3.7e0d4c4a.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.84b04783.chunk.css.map": "/static/css/main.84b04783.chunk.css.map",
+    "static/js/2.261d8347.chunk.js.LICENSE.txt": "/static/js/2.261d8347.chunk.js.LICENSE.txt",
+    "static/media/Aiden_Threadgoode_Resume.8d66ad6e.pdf": "/static/media/Aiden_Threadgoode_Resume.8d66ad6e.pdf",
+    "static/media/aiden.490b5966.png": "/static/media/aiden.490b5966.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4553cc81.js",
+    "static/js/runtime-main.35de4f89.js",
     "static/js/2.261d8347.chunk.js",
     "static/css/main.84b04783.chunk.css",
     "static/js/main.1f90e8dc.chunk.js"
