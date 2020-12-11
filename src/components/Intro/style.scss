@@ -112,11 +112,16 @@ h3 {
 Button.projects {
     margin-top: 1rem;
     font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
     background-color: #9FC5CE;
+    --animate-delay: 2s;
+
+    &:hover {
+        background-color: #BBCB9F;
+    }
 }
 
 .typewrite {
     color: #BBCB9F;
     font-size: 3vh;
-    // margin-bottom: 20px;
 }

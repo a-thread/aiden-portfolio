@@ -28,7 +28,7 @@ class Intro extends React.Component {
                                 className="typewrite"
                             />
                             <Link to="/recent">
-                                <Button className="projects animate_animated animate__fadeIn" variant="contained" aria-label="projects">Recent Projects</Button>
+                                <Button className="projects animate__animated animate__backInRight" aria-label="projects">Recent Projects</Button>
                             </Link>
                         </div>
                     </div>
