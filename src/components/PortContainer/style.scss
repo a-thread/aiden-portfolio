@@ -27,10 +27,12 @@ article.portfolio-item {
 
         h2 {
             text-align: center;
+            color: #BBCB9F;
+
         }
 
         div.text {
-            padding-right: 2vw;
+            padding-left: 2vw;
         }
 
         Button.site {
@@ -40,10 +42,13 @@ article.portfolio-item {
 
     &:nth-of-type(even) {
         background-color: rgba(187, 203, 159, .5);
-        ;
+        
+        h2 {
+            color: #9FC5CE;
+        }
 
         div.text {
-            padding-left: 2vw;
+            padding-right: 2vw;
         }
 
         Button.site {
@@ -60,8 +65,8 @@ article.portfolio-item {
 @media screen and (max-width: 900px) {
     div.body {
         background-color: white;
-        h1 {
-            color:#3E424D;
+        h1, h2 {
+            color:#3E424D !important;
         }
     }
 

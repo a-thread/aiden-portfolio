@@ -24,6 +24,8 @@ class PortContainer extends Component {
                             title={project.title}
                             image={project.image}
                             description={project.description}
+                            email={project.email}
+                            password={project.password}
                             tech={project.tech}
                             github={project.github}
                             deployed={project.deployed}
