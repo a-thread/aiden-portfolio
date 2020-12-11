@@ -8,7 +8,7 @@
     justify-content: center;
 
 
-    @media screen and (max-width: 1000px) {
+    @media screen and (max-width: 800px) {
         text-align: center;
         justify-content: flex-start;
 
@@ -54,26 +54,23 @@
         }
     }
 
-    .arrow {
-        background-color: #3E424D;
-        font-size: 40px;
-        color: white;
-        width: 100%;
+    a {
+        .arrow {
+            background-color: #3E424D;
+            font-size: 40px;
+            color: white;
+            width: 100%;
 
-        a {
             text-decoration: none;
             text-align: center;
 
             i {
                 position: relative;
                 bottom: -12vh;
-                left: 50%;
-                margin-left: -20px;
                 color: white;
                 animation: bounce 2s infinite;
 
                 @media screen and (max-width: 1000px) {
-                    left: 2.5%;
                     bottom: -7vh;
                 }
             }
@@ -112,7 +109,6 @@ h3 {
 Button.projects {
     margin-top: 1rem;
     font-family: "Ubuntu", sans-serif;
-    font-weight: 600;
     background-color: #9FC5CE;
     --animate-delay: 2s;
 

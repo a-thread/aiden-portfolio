@@ -16,7 +16,7 @@ class Intro extends React.Component {
                 <Box className="intro-background">
                     <div className="container">
                         <div className="headshot-image">
-                            <img src={headshot} className="img-fluid animate__animated animate__rollIn"
+                            <img src={headshot} className="img-fluid animate__animated animate__rollIn shadow"
                                 alt="Headshot of Aiden" />
                         </div>
                         <div className="intro">
@@ -28,11 +28,11 @@ class Intro extends React.Component {
                                 className="typewrite"
                             />
                             <Link to="/recent">
-                                <Button className="projects animate__animated animate__backInRight" aria-label="projects">Recent Projects</Button>
+                                <Button className="shadow projects animate__animated animate__backInRight" aria-label="projects">Recent Projects</Button>
                             </Link>
                         </div>
                     </div>
-                    <div className="arrow"><a href="#bio" aria-label="bio"><i className="fas fa-chevron-down"></i></a></div>
+                    <a href="#bio" aria-label="bio"><div className="arrow"><i className="fas fa-chevron-down"></i></div></a>
                 </Box>
             </>
         )

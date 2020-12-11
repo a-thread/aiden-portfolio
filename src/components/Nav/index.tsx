@@ -7,12 +7,12 @@ class Nav extends Component {
         return (
             <nav>
                 <div>
-                    <h1><span className="green">Aiden</span> Threadgoode</h1>
+                <NavLink to="/"><h1><span className="green">Aiden</span> Threadgoode</h1></NavLink>
                 </div>
                 <div>
-                    <NavLink activeClassName="active" className={"tab"} to="/">home</NavLink>
-                    <NavLink activeClassName="active" className={"tab"} to="/recent">projects</NavLink>
-                    <NavLink activeClassName="active" className={"tab"} to="/resume">resume</NavLink>
+                    <NavLink activeClassName="active" className={"tab"} exact={true} to="/">home</NavLink>
+                    <NavLink activeClassName="active" className={"tab"} exact={true} to="/recent">projects</NavLink>
+                    <NavLink activeClassName="active" className={"tab"} exact={true} to="/resume">resume</NavLink>
                 </div>
             </nav>
         )
