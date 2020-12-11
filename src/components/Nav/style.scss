@@ -16,7 +16,7 @@ nav {
             justify-content: center;
             align-items: center;
 
-            .navItem {
+            .tab {
                 margin-right: 0;
             }
         }
@@ -38,21 +38,18 @@ nav {
             }
         }
 
-        .navItem {
+        .tab {
             margin-right: 30px;
+            font-size: 20px;
+            font-weight: 600px;
+            color: #9FC5CE;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
 
-            .link {
-                font-size: 20px;
-                font-weight: 500;
-                color: #9FC5CE;
-                letter-spacing: 0.1em;
-                
-                &:hover,
-                &.Mui-selected {
-                    color: #BBCB9F;
-                }
+            &:hover,
+            .active {
+                color: #BBCB9F !important;
             }
-
 
             @media screen and (max-width: 600px) {
                 margin: 0 5px 0 5px;

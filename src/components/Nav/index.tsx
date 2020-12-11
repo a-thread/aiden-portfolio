@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import Button from "@material-ui/core/Button";
+import { NavLink } from "react-router-dom";
 import "./style.scss";
 
 class Nav extends Component {
@@ -11,9 +10,9 @@ class Nav extends Component {
                     <h1><span className="green">Aiden</span> Threadgoode</h1>
                 </div>
                 <div>
-                    <Button className="navItem"><Link className="link" to="/">home</Link></Button>
-                    <Button className="navItem"><Link className="link" to="/recent">projects</Link></Button>
-                    <Button className="navItem"><Link className="link" to="/resume">resume</Link></Button>
+                    <NavLink activeClassName="active" className={"tab"} to="/">home</NavLink>
+                    <NavLink activeClassName="active" className={"tab"} to="/recent">projects</NavLink>
+                    <NavLink activeClassName="active" className={"tab"} to="/resume">resume</NavLink>
                 </div>
             </nav>
         )
