@@ -26,7 +26,7 @@ class Skills extends Component {
                         <h2>Tools</h2>
                         <p>Github, VSCode, Git, Jira, Hubspot, Slack</p>
                     </div>
-                    <div>
+                    <div className="soft">
                         <span className="blue"><i className="fas fa-users-cog"></i></span>
                         <h2>Soft Skills</h2>
                         <p>Critical Thinking, Communication, Resourcefulness, Organization, Flexibility</p>
