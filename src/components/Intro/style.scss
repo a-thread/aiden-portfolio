@@ -11,7 +11,7 @@
     @media screen and (max-width: 800px) {
         text-align: center;
         justify-content: flex-start;
-
+        min-height: 85vh;
     }
 
     .container {
@@ -33,7 +33,7 @@
             img {
                 max-width: 20rem;
                 padding: 5px;
-                margin: 1rem;
+                margin: 2rem;
                 border-radius: 50%;
                 border: 5px solid #BBCB9F;
 
@@ -66,12 +66,12 @@
 
             i {
                 position: relative;
-                bottom: -12vh;
+                bottom: -10vh;
                 color: white;
                 animation: bounce 2s infinite;
 
                 @media screen and (max-width: 1000px) {
-                    bottom: -7vh;
+                    bottom: -7vh
                 }
             }
         }
