@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Box from "@material-ui/core/Box";
 // import "./style.css";
-import PDF from "./Aiden_Threadgoode_Resume.pdf";
+import PDF from "./Aiden-Threadgoode-Resume.pdf";
 
 class ResumeContainer extends Component {
     render() {
