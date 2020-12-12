@@ -12,7 +12,7 @@ class Nav extends Component {
                 <div>
                     <NavLink activeClassName="active" className={"tab"} exact={true} to="/">home</NavLink>
                     <NavLink activeClassName="active" className={"tab"} exact={true} to="/recent">projects</NavLink>
-                    <NavLink activeClassName="active" className={"tab"} exact={true} to="/resume">resume</NavLink>
+                    <a href="https://drive.google.com/file/d/1C4IvGw7hGOexXuyiZfb2u0yhdMKgvxxe/view?usp=sharing" target="blank">resume</a>
                 </div>
             </nav>
         )
