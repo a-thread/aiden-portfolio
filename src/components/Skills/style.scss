@@ -32,6 +32,12 @@ div.skillsContainer {
             text-align: center;
             padding: 1rem;
 
+            h4 {
+                color: #457b9d;
+                font-size: 25px;
+                padding: 0;
+                margin: 10px;
+            }
 
             &:first-of-type {
                 border-right: solid 5px #BBCB9F;
