@@ -1,32 +1,26 @@
 .footer {
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     background-color: #3E424D;
 
-    .btnsRow {
-        display: flex;
-        flex-direction: row;
-        margin: 0;
 
-        a {
-            margin: 20px;
-            color: white;
-            font-size: 40px;
+    a {
+        margin: 20px;
+        color: white;
+        font-size: 40px;
 
-            &:hover {
-                color: #BBCB9F;
-            }
+        &:hover {
+            color: #BBCB9F;
         }
     }
 
     @media screen and (max-width: 800px) {
-        justify-content: flex-start;
         align-items: space-evenly;
 
-        .btnsRow>a {
+        a {
             font-size: 25px;
             margin-top: 0;
         }

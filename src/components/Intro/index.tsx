@@ -15,23 +15,32 @@ class Intro extends React.Component {
             <>
                 <Box className="intro-background">
                     <div className="container">
+
                         <div className="headshot-image">
-                            <img src={headshot} className="img-fluid animate__animated animate__rollIn shadow"
-                                alt="Headshot of Aiden" />
+                            {/* image */}
+                            <img src={headshot} className="img-fluid animate__animated animate__rollIn shadow" alt="Headshot of Aiden" />
                         </div>
                         <div className="intro">
+                            {/* Intro title */}
                             <h1 className="intro-title animate__animated animate__backInLeft">Hi, I'm <span className="green">Aiden.</span></h1>
+                            {/* Typical Typing */}
                             <Typical
+                                // subtitles
                                 steps={[1000, 'Full Stack Developer', 2000, 'Graphic Designer', 1000, 'Dog Dad', 1000, 'Trans Rights Activist']}
+                                // timing
                                 loop={Infinity}
+                                // setting size/type
                                 wrapper="h2"
+                                // className for Css
                                 className="typewrite"
                             />
+                            {/* Project button */}
                             <Link to="/recent">
                                 <Button className="shadow projects animate__animated animate__backInRight" aria-label="projects">Recent Projects</Button>
                             </Link>
                         </div>
                     </div>
+                    {/* Bouncing arrow */}
                     <a href="#bio" aria-label="bio"><div className="arrow"><i className="fas fa-chevron-down"></i></div></a>
                 </Box>
             </>
