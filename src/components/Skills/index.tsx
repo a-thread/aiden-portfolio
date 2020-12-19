@@ -11,20 +11,26 @@ class Skills extends Component {
                 <div className="skillsSection">
                     <div>
                         <span><i className="fas fa-laptop-code"></i></span>
-                        <h4>Front End</h4>
-                        <p>Angular, React, HTML5, CSS, SCSS, jQuery, Bootstrap, Material</p>
+                        <h4>Languages</h4>
+                        <p>Typescript, Javascript, HTML5, CSS, JSX</p>
+                        {/* <h4>Front End</h4>
+                        <p>Angular, React, HTML5, CSS, SCSS, jQuery, Bootstrap, Material</p> */}
                     </div>
                     <div>
                         <span><i className="fas fa-terminal"></i></span>
-                        <h4>Back End</h4>
-                        <p>Typescript, Javascript, NestJs, Mongoose, Express, NodeJs, SQL, NoSQL, MongoDB</p>
+                        <h4>Libraries / Frameworks</h4>
+                        <p>React, Angular, NestJs, Express, Moment, Bootstrap, Material</p>
+                        {/* <h4>Back End</h4>
+                        <p>Typescript, Javascript, NestJs, Mongoose, Express, NodeJs, SQL, NoSQL, MongoDB</p> */}
                     </div>
                 </div>
                 <div className="skillsSection">
                     <div>
                         <span className="blue"><i className="fas fa-code-branch"></i></span>
                         <h4>Tools</h4>
-                        <p>Git, Github, Jira, Confluence, VSCode, Hubspot, Slack</p>
+                        <p>Mongodb, SQL, Git, Github, Atlassian, Adobe Creative Suite</p>
+                        {/* <h4>Tools</h4>
+                        <p>Git, Github, Jira, Confluence, VSCode, Hubspot, Slack</p> */}
                     </div>
                     <div className="soft">
                         <span className="blue"><i className="fas fa-users-cog"></i></span>
