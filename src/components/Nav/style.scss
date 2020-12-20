@@ -34,13 +34,17 @@ nav {
             @media screen and (max-width: 900px) {
                 margin: 0;
             }
+
+            @media screen and (max-width: 400px) {
+                font-size: 7vw;
+            }
         }
 
-        .tab, 
+        .tab,
         a {
             margin-right: 40px;
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 500;
             color: #9FC5CE;
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -51,10 +55,7 @@ nav {
 
             @media screen and (max-width: 900px) {
                 margin: 0 20px;
-
-                .link {
-                    font-size: 14px;
-                }
+                font-size: 14px;
             }
         }
     }

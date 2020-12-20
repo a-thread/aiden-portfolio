@@ -56,7 +56,7 @@ function PortCard(
             <div className="login">
 
               {/* title */}
-              <p><strong>Guest Login:</strong></p>
+              <span><strong>Guest Login:</strong></span>
 
               {/* email */}
               {props.email && <p><strong>email:</strong> {props.email}</p>}

@@ -1,6 +1,6 @@
 .intro-background {
     background-color: #3E424D;
-    min-height: 90vh;
+    min-height: 95vh;
     width: 100%;
     margin: 0;
     display: flex;
@@ -11,7 +11,12 @@
     @media screen and (max-width: 800px) {
         text-align: center;
         justify-content: flex-start;
-        min-height: 85vh;
+        min-height: 87vh;
+    }
+
+    @media screen and (max-width: 400px) {
+        // min-height: 85vh;
+        margin: 0;
     }
 
     .container {
@@ -73,6 +78,10 @@
                 @media screen and (max-width: 1000px) {
                     bottom: -7vh
                 }
+
+                @media screen and (max-width: 400px) {
+                    bottom: -6vh
+                }
             }
         }
     }
@@ -82,15 +91,17 @@
 
 h1,
 h3,
-span.typewrite .greenLarge {
+.typewrite,
+.greenLarge {
     color: #9FC5CE;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 6vh;
 
     @media screen and (max-width: 800px) {
         font-size: 5vh;
         text-align: center;
     }
+    
 }
 
 h3 {
@@ -120,4 +131,5 @@ Button.projects {
 .typewrite {
     color: #BBCB9F;
     font-size: 3vh;
+    font-weight: 500;
 }

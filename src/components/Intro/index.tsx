@@ -26,7 +26,7 @@ class Intro extends React.Component {
                             {/* Typical Typing */}
                             <Typical
                                 // subtitles
-                                steps={[1000, 'Full Stack Developer', 2000, 'Graphic Designer', 1000, 'Dog Dad', 1000, 'Trans Rights Activist']}
+                                steps={[1000, 'Full Stack Developer', 2000, 'Graphic Designer', 2000, 'Dog Dad', 2000, 'Trans Rights Activist']}
                                 // timing
                                 loop={Infinity}
                                 // setting size/type
@@ -36,12 +36,16 @@ class Intro extends React.Component {
                             />
                             {/* Project button */}
                             <Link to="/recent">
-                                <Button className="shadow projects animate__animated animate__backInRight" aria-label="projects">Recent Projects</Button>
+                                <Button className="shadow projects animate__animated animate__backInRight" aria-label="projects">recent projects</Button>
                             </Link>
                         </div>
                     </div>
                     {/* Bouncing arrow */}
-                    <a href="#bio" aria-label="bio"><div className="arrow"><i className="fas fa-chevron-down"></i></div></a>
+                    <a href="#bio" aria-label="bio">
+                        <div className="arrow">
+                            <i className="fas fa-chevron-down"/>
+                        </div>
+                    </a>
                 </Box>
             </>
         )
