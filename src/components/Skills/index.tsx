@@ -12,14 +12,14 @@ class Skills extends Component {
                     <div>
                         <span><i className="fas fa-laptop-code"></i></span>
                         <h4>Languages</h4>
-                        <p>Typescript, Javascript, HTML5, CSS, JSX</p>
+                        <p>Typescript, Javascript, HTML, CSS, Python</p>
                         {/* <h4>Front End</h4>
                         <p>Angular, React, HTML5, CSS, SCSS, jQuery, Bootstrap, Material</p> */}
                     </div>
                     <div>
                         <span><i className="fas fa-terminal"></i></span>
                         <h4>Libraries / Frameworks</h4>
-                        <p>React, Angular, NestJs, Express, Moment, Bootstrap, Material</p>
+                        <p>React, Angular, NestJs, Express, Redux, Moment, Bootstrap, Material</p>
                         {/* <h4>Back End</h4>
                         <p>Typescript, Javascript, NestJs, Mongoose, Express, NodeJs, SQL, NoSQL, MongoDB</p> */}
                     </div>
@@ -28,14 +28,14 @@ class Skills extends Component {
                     <div>
                         <span className="blue"><i className="fas fa-code-branch"></i></span>
                         <h4>Tools</h4>
-                        <p>Mongodb, SQL, Git, Github, Atlassian, Adobe Creative Suite</p>
+                        <p>SQL, NoSQL, Git, Github, Atlassian, Jira, MongoDB, Adobe Creative Suite</p>
                         {/* <h4>Tools</h4>
                         <p>Git, Github, Jira, Confluence, VSCode, Hubspot, Slack</p> */}
                     </div>
                     <div className="soft">
                         <span className="blue"><i className="fas fa-users-cog"></i></span>
                         <h4>Soft Skills</h4>
-                        <p>Critical Thinking, Communication, Resourcefulness, Organization, Flexibility</p>
+                        <p>Critical Thinking, Communication, Resourcefulness, Resilience, Organization, Flexibility</p>
                     </div>
                 </div>
             </Box>
