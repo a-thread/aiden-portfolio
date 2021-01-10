@@ -18,7 +18,7 @@ function PortCard(
   }
 ) {
   return (
-    <article className="portfolio-item shadow">
+    <article className="portfolio-item shadow" id={`${props.id}`}>
 
       {/* Media */}
       <div className="image">
