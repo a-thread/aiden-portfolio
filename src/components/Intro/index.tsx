@@ -26,7 +26,7 @@ class Intro extends React.Component {
                             {/* Typical Typing */}
                             <Typical
                                 // subtitles
-                                steps={[1000, 'Full Stack Developer', 2000, 'Graphic Designer', 2000, 'Dog Dad', 2000, 'Trans Rights Activist']}
+                                steps={[1000, 'Full Stack Engineer', 2000, 'Graphic Designer', 2000, 'Dog Dad', 2000, 'Trans Rights Activist']}
                                 // timing
                                 loop={Infinity}
                                 // setting size/type
