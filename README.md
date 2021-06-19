@@ -4,7 +4,7 @@
 
 ![Image of Start Screen](./public/images/demo.png)
 
-### Deployed Link: [My React Portfolio](https://a-thread.codes)
+### Link to Portfolio: [a-thread.codes](https://a-thread.codes)
 
 ## Description
 
