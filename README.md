@@ -26,7 +26,7 @@ This is a simple and fun portfolio built with TypeScript and React. It contains 
 
 ![Walk Through of Portfolio](./public/images/demo.gif)
 
-Check it out [**for yourself!**](https://a-thread.github.io/aiden-portfolio/)
+Check it out [**for yourself!**](https://a-thread.codes)
 
 #### Questions
 
