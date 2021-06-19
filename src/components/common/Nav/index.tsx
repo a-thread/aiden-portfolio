@@ -12,8 +12,8 @@ class Nav extends Component {
                 </div>
                 <div>
                     <NavLink activeClassName="active" className={"tab"} exact={true} to="/">home</NavLink>
-                    <NavLink activeClassName="active" className={"tab"} exact={true} to="/recent">projects</NavLink>
-                    {/* make a navLink for contact! <NavLink activeClassName="active" className={"tab"} exact={true} to={this.anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}>Contact</NavLink> */}
+                    <NavLink activeClassName="active" className={"tab"} exact={true} to="/projects">projects</NavLink>
+                    {/* <NavLink activeClassName="active" className={"tab"} exact={true} to={this.anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })}>Contact</NavLink> */}
                     <a href="https://drive.google.com/file/d/1C4IvGw7hGOexXuyiZfb2u0yhdMKgvxxe/view?usp=sharing" target="blank">resume</a>
                 </div>
             </nav>
