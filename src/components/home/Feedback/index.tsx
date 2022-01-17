@@ -13,17 +13,12 @@ class Feedback extends Component {
                         him again."
                         <br />
                         <br />
-                    "Aiden is an activist and a very compassionate individual."
-                        <br />
-                        <br />
                     "He is always on the lookout for someone not feeling good about themselves and not letting
                     them put themselves down - looking out for the diginity of each human being, for sure."
                         <br />
                         <br />
                     "Aiden is just incredibly kind and patient with everything toward everyone."
-                        <br />
-                        <br />
-                    "Aiden is always friendly, warm and welcoming."</p>
+                    </p>
                 </article>
             </Box >
         )

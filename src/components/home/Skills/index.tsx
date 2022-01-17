@@ -11,31 +11,25 @@ class Skills extends Component {
                 <div className="skillsSection">
                     <div>
                         <span><i className="fas fa-laptop-code"></i></span>
-                        <h4>Languages</h4>
-                        <p>Typescript, Javascript, HTML, CSS, Python</p>
-                        {/* <h4>Front End</h4>
-                        <p>Angular, React, HTML5, CSS, SCSS, jQuery, Bootstrap, Material</p> */}
+                        <h4>Front End</h4>
+                        <p>Typescript, Angular, React, Bootstrap, Material UI, rxjs, ngrx, redux, HTML, CSS, SASS jQuery, Bootstrap, Material UI</p>
                     </div>
                     <div>
                         <span><i className="fas fa-terminal"></i></span>
-                        <h4>Libraries / Frameworks</h4>
-                        <p>React, Angular, NestJs, Express, Redux, Moment, Bootstrap, Material</p>
-                        {/* <h4>Back End</h4>
-                        <p>Typescript, Javascript, NestJs, Mongoose, Express, NodeJs, SQL, NoSQL, MongoDB</p> */}
+                        <h4>Back End</h4>
+                        <p>C#, AWS (Lambda microservices, API Gateway, S3), SQL, GraphQL, NoSQL, NestJs, Mongoose, Express, NodeJs, MongoDB</p>
                     </div>
                 </div>
                 <div className="skillsSection">
                     <div>
                         <span className="blue"><i className="fas fa-code-branch"></i></span>
                         <h4>Tools</h4>
-                        <p>SQL, NoSQL, Git, Github, Atlassian, Jira, MongoDB, Adobe Creative Suite</p>
-                        {/* <h4>Tools</h4>
-                        <p>Git, Github, Jira, Confluence, VSCode, Hubspot, Slack</p> */}
+                        <p>Git, Github, Jira, , Hubspot, Slack, Adobe Creative Suite</p>
                     </div>
                     <div className="soft">
                         <span className="blue"><i className="fas fa-users-cog"></i></span>
                         <h4>Soft Skills</h4>
-                        <p>Critical Thinking, Communication, Resourcefulness, Resilience, Organization, Flexibility</p>
+                        <p>Critical Thinking, Communication, Resourcefulness, Resilience, Organization, Flexibility, A True Passion for Learning</p>
                     </div>
                 </div>
             </Box>
