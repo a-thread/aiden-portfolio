@@ -10,9 +10,9 @@ class Bio extends Component {
 
                 <article>
                     <p className="bio-content">
-                        Full stack web developer with graphic design background educated at University of
-                        Southern Maine. Recently earned a certificate in full stack development from
-                        University of New Hampshire.
+                        Full Stack Engineer with 3+ years of hands on experience designing, building, and implementing applications
+                        using a wide range of technologies and programming languages. Check out my projects page to see a few of my 
+                        personal projects!
                         <br />
                         <br />
                         Coming from the nonprofit sector with a focus upon peer support and social justice, I am
@@ -20,8 +20,8 @@ class Bio extends Component {
                         to create collaborative and meaningful web applications.
                         <br />
                         <br />
-                        When I'm not hard at work, you will find me volunteering with MaineTransNet or out exploring with
-                        with my spouse, CJ, and great dane, Bonito.
+                        When I'm not hard at work, you can find me making art (quilting, drawing, or refinishing furniture) with my spouse,
+                        CJ, and great dane, Bonito.
                         </p>
                 </article>
             </Box>
