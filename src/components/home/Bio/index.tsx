@@ -21,7 +21,7 @@ class Bio extends Component {
                         <br />
                         <br />
                         When I'm not hard at work, you can find me making art (quilting, drawing, or refinishing furniture) with my spouse,
-                        CJ, and great dane, Bonito.
+                        CJ, and great dane, Bonito. He doesn't have thumbs but is always willing to throw a few barks in!
                         </p>
                 </article>
             </Box>
