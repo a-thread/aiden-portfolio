@@ -35,7 +35,7 @@ class Intro extends React.Component {
                                 className="typewrite"
                             />
                             {/* Project button */}
-                            <Link to="/recent">
+                            <Link to="/projects">
                                 <Button className="shadow projects animate__animated animate__backInRight" aria-label="projects">recent projects</Button>
                             </Link>
                         </div>
