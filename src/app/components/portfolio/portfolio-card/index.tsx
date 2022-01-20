@@ -1,8 +1,7 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
-import Link from "@material-ui/core/Link";
+import { Link, Button } from "@mui/material";
 import "./style.scss";
-import Project from "../../models/project.model";
+import Project from "../../../models/project.model";
 
 export default function PortfolioCard(props: { project: Project }) {
   return (

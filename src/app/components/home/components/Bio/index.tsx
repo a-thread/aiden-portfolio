@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Box from "@material-ui/core/Box";
+import { Box } from "@mui/material";
 import "./style.scss";
 
 class Bio extends Component {

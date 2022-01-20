@@ -1,17 +1,16 @@
 import { PaletteMode } from "@mui/material";
 import { amber, deepOrange, grey } from "@mui/material/colors";
-import { createContext } from "react";
 
-const getDesignTokens = (mode: PaletteMode) => ({
+export const getDesignTokens = (mode: PaletteMode) => ({
   palette: {
     mode,
     ...(mode === 'light'
       ? {
           // palette values for light mode
-          primary: amber,
+          primary: { main: '#3E424D' },
           divider: amber[200],
           text: {
-            primary: grey[900],
+            primary: { main: '#9fc5ce' },
             secondary: grey[800],
           },
         }
@@ -29,14 +28,4 @@ const getDesignTokens = (mode: PaletteMode) => ({
           },
         }),
   },
-});
-
-// export const themes = {
-//   dark: "",
-//   light: "light-content",
-// };
-
-export const ThemeContext = createContext({
-  theme: themes.dark,
-  changeTheme: () => {},
 });

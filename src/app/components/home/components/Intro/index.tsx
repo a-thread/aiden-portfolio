@@ -1,8 +1,7 @@
 import React from "react";
 import Typical from 'react-typical';
 import { Link } from "react-router-dom";
-import Box from "@material-ui/core/Box";
-import Button from "@material-ui/core/Button";
+import { Box, Button } from "@mui/material";
 import headshot from "./aiden.png";
 import "./style.scss";
 
